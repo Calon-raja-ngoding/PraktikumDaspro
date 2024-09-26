@@ -5,15 +5,18 @@ public class PemilihanBilangan18 {
         Scanner sc = new Scanner(System.in);
 
         int angka ;
+        String hasil ;
 
         System.out.print(" Masukkan sebuah angka : ");
         angka = sc.nextInt();
 
         if ( angka % 2 == 0) {
-            System.out.print(" Angka " + angka + " termasuk bilangan genap");
+            hasil = "termasuk bilangan genap" ;
         }
         else { 
-            System.out.print(" Angka " + angka + " termasuk bilangan ganjil");
+            hasil = "termasuk bilangan ganjil" ;
         }
+
+        System.out.print(" Angka " + hasil);
     }
 }
